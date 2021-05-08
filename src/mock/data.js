@@ -9,21 +9,21 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'HELLO WORLD!',
+  title: 'Hello there! Allow me to introduce myself.',
   name: 'Enrique Coscarelli',
-  subtitle: 'I am a web developer, let me show you some of my work.',
-  cta: '',
+  subtitle: 'Nice to meet you, I am a sound engineer turned web developer, let me show you some of my work.',
+  cta: 'Take a look',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Full stack web developer 👨‍💻 with a background in sound engineering 🔈. After over a decade of work in the sound field I came to the conclusion that it was time to take it a step further and become a web developer. 💪',
+    'Full stack web developer 👨‍💻 with a background in sound engineering 🔈. After over a decade working as a sound engineer and producer I came to the conclusion that it was time to take it a leap further and become a full time web developer. 💪',
   paragraphTwo:
-    'Jack of all trades, I like to learn new languages constantly & different disciplines. Some of the languages I use programming are Javascript ES6, React, Node JS, Express, MongoDB, HTML5 & CSS3. Im looking for a team to become part of where my skills are tested and further grow in the web development world anywhere in Europe 📈. Do our goals align? Lets connect! 🙌',
+    'Jack of all trades, I like to learn new things constantly & different tools. Some of the ones I use the most are Javascript ES6, ReactJS, NodeJS, Express, MongoDB, Sass, HTML5 & CSS3. I look for a team to become part of where my skills are used and I can further grow in the web development world anywhere in Europe 📈.',
   paragraphThree:
-    'I have lived and worked in China 🇨🇳, Canada 🇨🇦, United States 🇺🇸, Chile 🇨🇱, Argentina 🇦🇷, Spain 🇪🇸 and Switzerland 🇨🇭. Im not shy when it comes to exploring new cultures and I take pride in saying that the term comfort zone does not apply to me.😁',
+    'I have lived and worked in China 🇨🇳, Canada 🇨🇦, United States 🇺🇸, Chile 🇨🇱, Argentina 🇦🇷, Spain 🇪🇸 and Switzerland 🇨🇭. Not shy when it comes to exploring new cultures and would love to continue exploring.😁',
   resume: 'https://drive.google.com/file/d/1LPITbSJ3M1oLayKbuN8ZMFvsic-_V7b3/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -33,7 +33,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'SLM.jpg',
     title: 'Carolina Coscarelli Portfolio',
-    info: 'This project shows a Portfolio done for Carolina Coscarelli.',
+    info: 'This project shows a Portfolio done for Carolina Coscarelli, my sister my brother and I had a production company in Argentina, here you can find some of the shows we produced.',
     info2: 'I used ReactJS and Gatsby',
     url: 'https://www.carolinacoscarelli.com/',
     repo: 'https://github.com/EcaCosca/CaroPortfolio', // if no repo, the button will not show up
@@ -44,7 +44,7 @@ export const projectsData = [
     title: 'AORA',
     info:
       'In Aora, users will take fitness classes from an instructor in a live feed wherever and whenever they want. Users can schedule classes depending on their time availability and keep a log of classes they have taken in the past.',
-    info2: 'Created our own date component from scratch, filter and 2 databases.',
+    info2: 'Date component was build from scratch, filter and 2 databases.',
     url: 'https://aora.herokuapp.com/',
     repo: 'https://github.com/mirko1075/Aora', // if no repo, the button will not show up
   },
@@ -106,5 +106,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
